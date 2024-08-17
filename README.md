@@ -9,7 +9,6 @@
 修改配置文件，将host改为生产需要的
 
 ## 目录结构
-
 ```
 📦ginSerBase
  ┣ 📂commons        封装方法文件夹
@@ -40,3 +39,6 @@
  ┣ 📜config.jsonc   配置文件
  ┗ 📜go.sum         依赖文件
 ```
+
+## 架构
+数据库:gorm+PostgreSQL
