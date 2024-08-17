@@ -1,0 +1,34 @@
+//全局配置文件
+{
+    //你的产品或网站名称
+    "webname": "大木编程",
+    //gin运行端口
+    "port": "5280",
+    //数据库地址
+    "dbhost": "localhost",
+    //数据库端口,这里用字符串，因为gorm初始化连接时需要字符串
+    "dbport": "5432",
+    //数据库名称
+    "dbname": "test",
+    //数据库用户名
+    "dbuser": "mymuzixin",
+    //数据库用户密码
+    "dbpassword": "Mzx16838638",
+    //32位安全密钥,jwt需要
+    "jwtkey": "s1D5e+sUc8F-brNexP796Nt0_kr7L3e4",
+    //email发送服务配置
+    //email用户名
+    "emailuser": "ocid1.user.oc1..aaaaaaaayk54ezouawzhephsrlser3yoct3xfnaemiqw5naetibc4rezpmdq@ocid1.tenancy.oc1..aaaaaaaap3vd45hus3hlenc3llyajgzfydbcrlzx3rx4fqpbz3emdnplp2qq.dm.com",
+    //email密码
+    "emailpassword": "jmxJ1jVBfd8UHKBU1:fd",
+    //email服务器地址
+    "emailhost": "smtp.email.ap-singapore-1.oci.oraclecloud.com:587",
+    //微信appid
+    "wxappid": "wxddbd9bff137c964b",
+    //微信密钥
+    "wxsecret": "f3ee91a9f4957d255871a02ff60f8360",
+    //gin运行主机，开发环境
+    "host": "127.0.0.1:5280"
+    //生产环境
+    // "host": "www.abc.com"
+}
