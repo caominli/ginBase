@@ -11,22 +11,22 @@
     //数据库名称
     "dbname": "test",
     //数据库用户名
-    "dbuser": "",
+    "dbuser": "mymuzixin",
     //数据库用户密码
-    "dbpassword": "",
+    "dbpassword": "Mzx16838638",
     //32位安全密钥,jwt需要
-    "jwtkey": "",
+    "jwtkey": "s1D5e+sUc8F-brNexP796Nt0_kr7L3e4",
     //email发送服务配置
     //email用户名
-    "emailuser": "",
+    "emailuser": "ocid1.user.oc1..aaaaaaaayk54ezouawzhephsrlser3yoct3xfnaemiqw5naetibc4rezpmdq@ocid1.tenancy.oc1..aaaaaaaap3vd45hus3hlenc3llyajgzfydbcrlzx3rx4fqpbz3emdnplp2qq.dm.com",
     //email密码
-    "emailpassword": "",
+    "emailpassword": "jmxJ1jVBfd8UHKBU1:fd",
     //email服务器地址
-    "emailhost": "",
+    "emailhost": "smtp.email.ap-singapore-1.oci.oraclecloud.com:587",
     //微信appid
-    "wxappid": "",
+    "wxappid": "wxddbd9bff137c964b",
     //微信密钥
-    "wxsecret": "",
+    "wxsecret": "f3ee91a9f4957d255871a02ff60f8360",
     //gin运行主机，开发环境
     "host": "127.0.0.1:5280"
     //生产环境
