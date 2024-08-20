@@ -47,13 +47,13 @@ func Sendmail_oracle(from string, to string, title string, leirong string) error
 // //使用qq发送邮箱
 // // 参数：对方邮箱，标题，内容
 // func tuisongemail(dfemail string,title string, body string) {
-// 	auth := smtp.PlainAuth("", "13320807", "这里是密码", "smtp.qq.com")
+// 	auth := smtp.PlainAuth("", config.Config.EmailUser, config.Config.EmailPassword, "smtp.qq.com")
 // 	// 邮件内容
 // 	mime := "MIME-version: 1.0;\nContent-Type: text/html; charset=\"UTF-8\";\n\n"
-// 	msg := "From: 13320807@qq.com\n" + "Subject: " + title + "\n" + mime + "\n" + body
+// 	msg := "From: "+config.Config.EmailUser+"@qq.com\n" + "Subject: " + title + "\n" + mime + "\n" + body
 
 // 	// 发送邮件
-// 	err := smtp.SendMail("smtp.qq.com:587", auth, "13320807@qq.com", []string{dfemail}, []byte(msg))
+// 	err := smtp.SendMail("smtp.qq.com:587", auth, config.Config.EmailUser+"@qq.com", []string{dfemail}, []byte(msg))
 // 	if err != nil {
 // 		log.Print("QQ邮箱发送失败:", err)
 // 		return
